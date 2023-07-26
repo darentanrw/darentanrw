@@ -73,8 +73,8 @@ _check_init() {
 
 check_env() {
   _check_cli
-  _check_status
-  _check_init
+  # _check_status
+  # _check_init
 }
 
 checkout_latest_release() {
@@ -114,9 +114,9 @@ commit() {
 
 main() {
   check_env
-  checkout_latest_release
+  # checkout_latest_release
   init_files
-  commit
+  # commit
 }
 
 while (($#)); do

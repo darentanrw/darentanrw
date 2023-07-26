@@ -198,31 +198,6 @@ The screenshots of the program window can be considered to show the shadow effec
 ```
 {: .nolineno}
 
-### CDN URL
-
-If you host the images on the CDN, you can save the time of repeatedly writing the CDN URL by assigning the variable `img_cdn` of `_config.yml`{: .filepath} file:
-
-```yaml
-img_cdn: https://cdn.com
-```
-{: file='_config.yml' .nolineno}
-
-Once `img_cdn` is assigned, the CDN URL will be added to the path of all images (images of site avatar and posts) starting with `/`.
-
-For instance, when using images:
-
-```markdown
-![The flower](/path/to/flower.png)
-```
-{: .nolineno}
-
-The parsing result will automatically add the CDN prefix `https://cdn.com` before the image path:
-
-```html
-<img src="https://cdn.com/path/to/flower.png" alt="The flower">
-```
-{: .nolineno }
-
 ### Image Path
 
 When a post contains many images, it will be a time-consuming task to repeatedly define the path of the images. To solve this, we can define this path in the YAML block of the post:
@@ -282,7 +257,7 @@ image:
 ---
 ```
 
-> You can observe LQIP in the preview image of post [_Text and Typography_](/posts/text-and-typography/).
+> You can observe LQIP in the preview image of post [_Text and Typography_](https://chirpy-img.netlify.app/posts/text-and-typography/).
 
 
 For normal images:

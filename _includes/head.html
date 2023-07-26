@@ -22,15 +22,10 @@
       {% assign img_path = page.img_path | append: '/' | append: img | replace: '//', '/' %}
       {% capture target %}"{{ img | absolute_url }}"{% endcapture %}
 
-      {% if site.img_cdn contains '//' %}
-        <!-- it's a cross-origin URL -->
-        {% capture replacement %}"{{ site.img_cdn }}{{ img_path }}"{% endcapture %}
-      {% else %}
-        <!-- it's a local file path -->
-        {%- capture replacement -%}
-          "{{ site.img_cdn | append: '/' | append: img_path | replace: '//', '/' | absolute_url }}"
-        {%- endcapture -%}
-      {% endif %}
+      <!-- it's a local file path -->
+      {%- capture replacement -%}
+        "{{ site.img_cdn | append: '/' | append: img_path | replace: '//', '/' | absolute_url }}"
+      {%- endcapture -%}
 
       {% assign seo_tags = seo_tags | replace: target, replacement %}
     {% endunless %}
@@ -39,7 +34,7 @@
   {{ seo_tags }}
 
   <title>
-    {%- unless page.layout == 'home' -%}
+    {%- unless page.url == '/' | relative_url -%}
       {{ page.title | append: ' | ' }}
     {%- endunless -%}
     {{ site.title }}

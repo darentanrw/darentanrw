@@ -9,10 +9,31 @@ tail_includes:
   - comments
 ---
 
+{% if page.has_title == nil %}
+  {% assign has_title = true %}
+{% else %}
+  {% assign has_title = page.has_title %}
+{% endif %}
+
+{% if page.has_meta == nil %}
+  {% assign has_meta = true %}
+{% else %}
+  {% assign has_meta = page.has_meta %}
+{% endif %}
+
+{% if page.has_tail == nil %}
+    {% assign has_tail = true %}
+  {% else %}
+    {% assign has_tail = page.has_tail %}
+{% endif %}
+
 {% include lang.html %}
 
+{% if has_title %}
 <h1 data-toc-skip>{{ page.title }}</h1>
+{% endif %}
 
+{% if has_meta %}
 <div class="post-meta text-muted">
     <!-- published date -->
     <span>
@@ -78,11 +99,13 @@ tail_includes:
   </div> <!-- .d-flex -->
 
 </div> <!-- .post-meta -->
+{% endif %}
 
 <div class="post-content">
   {{ content }}
 </div>
 
+{% if has_tail %}
 <div class="post-tail-wrapper text-muted">
 
   <!-- categories -->
@@ -131,3 +154,4 @@ tail_includes:
   </div><!-- .post-tail-bottom -->
 
 </div><!-- div.post-tail-wrapper -->
+{% endif %}

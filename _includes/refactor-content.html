@@ -47,17 +47,7 @@
 {% if _content contains IMG_TAG %}
   {% assign _img_content = nil %}
   {% assign _img_snippets = _content | split: IMG_TAG %}
-
-  <!-- CDN URL -->
-  {% if site.img_cdn %}
-    {% if site.img_cdn contains '//' %}
-      {% assign _path_prefix = site.img_cdn %}
-    {% else %}
-      {% assign _path_prefix = site.img_cdn | relative_url %}
-    {% endif %}
-  {% else %}
-    {% assign _path_prefix = site.baseurl %}
-  {% endif %}
+  {% assign _path_prefix = site.baseurl %}
 
   <!-- Add image path -->
   {% if page.img_path %}

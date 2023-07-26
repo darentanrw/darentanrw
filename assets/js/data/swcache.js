@@ -36,10 +36,6 @@ const allowedDomains = [
 
     '{{ site.url | split: "//" | last }}',
 
-    {% if site.img_cdn contains '//' and site.img_cdn %}
-        '{{ site.img_cdn | split: '//' | last | split: '/' | first }}',
-    {% endif %}
-
     'fonts.gstatic.com',
     'fonts.googleapis.com',
     'cdn.jsdelivr.net',

@@ -1,3 +1,4 @@
+# to enable `self_host` in `_config.yml`, download on https://github.com/cotes2020/chirpy-static-assets into `./assets/lib`
 # fonts
 
 webfonts: /assets/lib/fonts/main.css

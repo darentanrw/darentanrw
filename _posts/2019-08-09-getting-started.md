@@ -5,7 +5,7 @@ date: 2019-08-09 20:55:00 +0800
 categories: [Blogging, Tutorial]
 tags: [getting started]
 pin: true
-img_path: '/posts/20180809'
+img_path: '/assets/img/demos'
 ---
 
 ## Prerequisites
@@ -32,7 +32,7 @@ Sign in to GitHub to [fork **Chirpy**](https://github.com/cotes2020/jekyll-theme
 Next, clone your site to local machine. In order to build JavaScript files later, we need to install [Node.js][nodejs], and then run the tool:
 
 ```console
-$ bash tools/init
+bash tools/init
 ```
 
 > If you don't want to deploy your site on GitHub Pages, append option `--no-gh` at the end of the above command.
@@ -50,7 +50,7 @@ The above command will:
 Before running local server for the first time, go to the root directory of your site and run:
 
 ```console
-$ bundle
+bundle
 ```
 
 ## Usage
@@ -81,13 +81,13 @@ Also, if you'd like to self-host the static assets, please refer to the [_chirpy
 You may want to preview the site contents before publishing, so just run it by:
 
 ```console
-$ bundle exec jekyll s
+bundle exec jekyll s
 ```
 
 Or run the site on Docker with the following command:
 
 ```console
-$ docker run -it --rm \
+docker run -it --rm \
     --volume="$PWD:/srv/jekyll" \
     -p 4000:4000 jekyll/jekyll \
     jekyll serve
@@ -109,7 +109,7 @@ There are a few things to get ready for.
 - If you have committed `Gemfile.lock`{: .filepath} to the repository, and your local machine is not running Linux, go the the root of your site and update the platform list of the lock-file:
 
   ```console
-  $ bundle lock --add-platform x86_64-linux
+  bundle lock --add-platform x86_64-linux
   ```
 
 Next, configure the _Pages_ service.
@@ -129,13 +129,13 @@ On self-hosted servers, you cannot enjoy the convenience of **GitHub Actions**. 
 Go to the root of the source project, and build your site as follows:
 
 ```console
-$ JEKYLL_ENV=production bundle exec jekyll b
+JEKYLL_ENV=production bundle exec jekyll b
 ```
 
 Or build the site on Docker:
 
 ```console
-$ docker run -it --rm \
+docker run -it --rm \
     --env JEKYLL_ENV=production \
     --volume="$PWD:/srv/jekyll" \
     jekyll/jekyll \

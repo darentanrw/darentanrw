@@ -1,6 +1,9 @@
 ---
 ---
 
-@import '{{ site.theme }}';
+@import '{{ site.theme }}'; // load in _sass/jekyll-theme-chirpy.scss
 
 /* append your custom style below */
+.post-content {
+    font-size: 1.1rem;
+}
