@@ -6,10 +6,6 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-jcli:
-  name: Jinchao Li
-  url: https://jinchaoli.com
-
-cotes:
-  name: Cotes Chung
-  url: https://github.com/cotes2020/
+daren:
+  name: Daren Tan
+  url: https://darentan.com

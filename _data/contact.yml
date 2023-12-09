@@ -7,17 +7,12 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: scholar
-  icon: "fab fa-google"
-  url: https://scholar.google.com/citations?hl=en&user=0LWE_dkAAAAJ
+# - type: scholar
+#   icon: "fab fa-google"
+#   url: https://scholar.google.com/citations?hl=en&user=0LWE_dkAAAAJ
 
-# - type: zhihu
-#   icon: "fab fa-zhihu"
-#   url: "https://zhihu.com/people/jinchaoli"
-
-- type: twitter
-  icon: "fab fa-twitter"
-
+# - type: twitter
+#   icon: "fab fa-twitter"
 
 # Uncomment and complete the url below to enable more contact options
 # - type: rss
@@ -28,9 +23,9 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
+- type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://linkedin.com/in/darentanrw'                  # Fill with your Linkedin homepage
 
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'

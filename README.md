@@ -1,10 +1,4 @@
-# Jinchao Li's Homepage
-
-TODO:
-
-- [ ] change sidebar to topbar, social icons to footer, then remove sidebar
-- [ ] card style for listing images with texts (left-right in PC, top-bottom in mobile)
-- [ ] encrypt some posts
+# Daren's Website
 
 ## Build
 
@@ -52,7 +46,7 @@ TODO:
 
 ## Credits
 
-Powered by [Chirpy Jekyll Theme][chirpy], a minimal, responsive and feature-rich Jekyll theme for technical writing.
+Forked from [Jinchao Li's repo](https://github.com/JinchaoLove/jekyll-theme-chirpy). Powered by [Chirpy Jekyll Theme][chirpy], a minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 This theme is mainly built with [Jekyll][jekyllrb] ecosystem,
 [Bootstrap][bootstrap], [Font Awesome][icons] and some other [wonderful tools][lib].
