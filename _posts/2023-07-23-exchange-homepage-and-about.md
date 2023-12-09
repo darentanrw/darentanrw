@@ -11,16 +11,16 @@ To change the default site homepage as `About`, and the original paginator homep
 
 1. Modify the front matters with permalink:
 
-    - Create a new folder, e.g. `/blog/`, and move `index.html` inside it.
+    - Create a new folder, e.g. `/projects/`, and move `index.html` inside it.
     - Add `permalink: /` in the front matter of `/_tabs/about.md`.
 
-2. Add `paginate_path` in `/_config.yml` to point to the folder `/blog/`
+2. Add `paginate_path` in `/_config.yml` to point to the folder `/projects/`
 
     ```diff
-    + paginate_path: "/blog/page:num/"
+    + paginate_path: "/projects/page:num/"
     ...
     - permalink: /posts/:title/
-    + permalink: /blog/:title/
+    + permalink: /projects/:title/
     ```
 
 3. Add `BLOG` as a new tab or navigation item, refer to this [issue](https://github.com/cotes2020/jekyll-theme-chirpy/issues/855).
@@ -37,8 +37,8 @@ To change the default site homepage as `About`, and the original paginator homep
         </a>
         </li>
         + <!-- blog -->
-        + <li class="nav-item{% if page.url == '/blog/' | relative_url %}{{ " active" }}{% endif %}">
-        +   <a href="{{ '/blog/' | relative_url }}" class="nav-link">
+        + <li class="nav-item{% if page.url == '/projects/' | relative_url %}{{ " active" }}{% endif %}">
+        +   <a href="{{ '/projects/' | relative_url }}" class="nav-link">
         +     <i class="fa-fw fas fa-pen"></i> 
         +     <span>BLOG</span>
         +   </a>

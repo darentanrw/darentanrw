@@ -11,9 +11,9 @@ pin: true
 
 This blog introduces some basic tutorials to customize your own Chirpy theme, suitable for those friends who are not satisfied with the Chirpy configuration and want more blogging functions. Welcome to [issue][issue] or [join us][contibute] to help others build blogs.
 
-## [Customize Favicon](/blog/customize-the-favicon/)
+## [Customize Favicon](/projects/customize-the-favicon/)
 
-## [Exchange Homepage and About](/blog/exchange-homepage-and-about/)
+## [Exchange Homepage and About](/projects/exchange-homepage-and-about/)
 
 ## [Replace Disqus with Valine for Discussion](https://nihil.cc/posts/use_valine/){:target="_blank"}
 

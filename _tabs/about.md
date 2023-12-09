@@ -8,7 +8,7 @@ has_meta: false
 has_tail: false
 ---
 
-![Avatar](/assets/img/avatar/Daren.JPG){: width="150" height="150" .w-80 .left}
+![Avatar](/assets/img/avatar/daren.JPG){: width="150" height="150" .w-80 .left}
 ## Daren Tan
 Undergraduate [[Resume]](/assets/papers/CV_darentan_outdated.pdf ){:target="_blank"}  
 Singapore  
