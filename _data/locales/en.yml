@@ -24,7 +24,7 @@ search:
   no_results: Oops! No results found.
 
 panel:
-  lastmod: Recently Updated
+  lastmod: Recent Projects
   trending_tags: Trending Tags
   toc: Contents
 
@@ -61,7 +61,7 @@ post:
   read_time:
     unit: min
     prompt: read
-  relate_posts: Further Reading
+  relate_posts: Similar Posts
   share: Share
   button:
     next: Newer
