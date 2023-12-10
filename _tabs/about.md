@@ -19,9 +19,7 @@ Email: daren28@gmail.com
 
 Hello, I am currently a Full-Time National Serviceman in the Singapore Armed Forces, currently waiting to start university. 
 
-While I have already secured a position to study Computer Science at the National University of Singapore, I am still keeping my options open and applying to colleges overseas. Apart from working on these applications, I am studying for AWS cloud and ML certification.
-
-At this point, I hope to secure a Software Engineer internship from mid Feb - June 2024, to increase my exposure before university starts.
+While I have already secured a position to study Computer Science at the National University of Singapore, I am still keeping my options open and applying to colleges overseas. Apart from working on these applications, I am studying for AWS cloud and ML certification. At this point, I hope to secure a Software Engineer internship from mid Feb - June 2024.
 
 My resume can be found below, and you can view my portfolio of [personal projects](/projects) here as well! Some key highlights include [project highlights here]. 
 
