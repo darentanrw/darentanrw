@@ -406,6 +406,8 @@ i {
   font-size: 1.08rem;
   margin-top: 2rem;
   overflow-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-word;
 
   a {
     &.popup {
