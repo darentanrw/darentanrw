@@ -35,14 +35,7 @@
   - Fork or upload the repository to Github
   - `Settings` > `Pages` > select the `Branch` to `main` or your branch
 
-- To deploy in [Vercel][vercel], add new project, import the repository, then configure with:
-
-  - `Framework Preset`: `Jekyll`
-  - `Build and Output Settings` > OVERRIDE `Build Command`:
-
-    ```sh
-    npm i && npm run build && JEKYLL_ENV=production bundle exec jekyll b -d "_site"
-    ```
+  Alternatively, deploy using Github Actions.
 
 ## Credits
 
@@ -87,4 +80,3 @@ This theme is mainly built with [Jekyll][jekyllrb] ecosystem,
 [icons]: https://fontawesome.com/
 [lib]: https://github.com/cotes2020/chirpy-static-assets/
 [github_pages]: https://pages.github.com/
-[vercel]: https://vercel.com/

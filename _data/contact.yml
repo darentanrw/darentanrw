@@ -3,9 +3,7 @@
 - type: github
   icon: "fab fa-github"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+
 
 # - type: scholar
 #   icon: "fab fa-google"
@@ -19,9 +17,9 @@
 #   icon: "fas fa-rss"
 #   noblank: true
 
-# - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+- type: 
+  icon: 'fab fa-telegram'   
+  url:  'https://t.me/darentanrw'                 
 
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
@@ -30,3 +28,7 @@
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
