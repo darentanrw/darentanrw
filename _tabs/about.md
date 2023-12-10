@@ -11,6 +11,7 @@ has_tail: false
 ![Avatar](/assets/img/avatar/daren.JPG){: width="150" height="150" .w-80 .left}
 ## Daren Tan
 Undergraduate <!-- [[Resume]](/assets/papers/DarenTan_CV.pdf ){:target="_blank"}   -->
+
 Singapore  
 Email: daren28@gmail.com  
 @darentanrw
